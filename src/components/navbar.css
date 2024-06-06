@@ -1,0 +1,7 @@
+.nav-bar{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-inline: 2rem;
+}

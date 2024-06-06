@@ -1,0 +1,35 @@
+.card {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0;
+}
+
+p {
+  color: rgb(55, 65, 81);
+}
+
+.title, .edition-count{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title span, .edition-count span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.primary {
+  background-color: #04aa6d;
+}
+
+.danger {
+  background-color: #f44336;
+}
+
